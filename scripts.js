@@ -80,3 +80,13 @@ size.addEventListener('input', () => {
     
     });
 });
+
+const reset = document.querySelector('#reset');
+
+reset.addEventListener('click', () => {
+
+    pixels.forEach((pixel) => {        
+            pixel.style.backgroundColor = 'white';     
+    });
+
+});
