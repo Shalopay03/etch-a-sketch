@@ -20,12 +20,28 @@ for(let i=0; i<panelFullSize; i++) fillPanel(panelXSize);
 
 const pixels = document.querySelectorAll('.pixel');
 
-console.log(pixels);
 pixels.forEach((pixel) => {
 
     pixel.addEventListener('mouseover', () => {
-        pixel.style.backgroundColor = chosenColor;
-        
+        pixel.style.backgroundColor = chosenColor;        
     })
 
 });
+
+const color = document.querySelector('#color');
+   
+color.addEventListener('input', () => {
+    chosenColor=color.value;
+});
+
+const eraser = document.querySelector('#eraser');
+
+eraser.addEventListener('click', () =>{
+    chosenColor='white';
+})
+
+const rainbow = document.querySelector('#rainbow');
+
+eraser.addEventListener('click', () =>{
+    chosenColor='red';
+})

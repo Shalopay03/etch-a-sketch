@@ -35,6 +35,7 @@ header{
     background-color: white;  
     display: flex;
     flex-wrap: wrap;
+    margin-right: 50px;
 }
 
 .painting-sector{
@@ -42,11 +43,40 @@ header{
 }
 
 #settings-panel{
-    width: 150px;
-    background-color: rgb(154, 154, 154);
+    width: 200px;
+    background-color: rgb(158, 0, 0);
     height: 500px;
-    border-radius: 15%;
     display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.setting-string p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+}
+
+.setting-string{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10%;
+}
+
+#color{
+    width: 90px;
+    height: 30px;
+}
+
+#eraser{
+    width: 90px;
+    height: 30px;
 }
 
 
