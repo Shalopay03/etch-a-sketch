@@ -38,13 +38,15 @@ header{
 }
 
 .painting-sector{
-    
+    flex-shrink: 0;
 }
 
 #settings-panel{
     width: 150px;
-    background-color: black;
+    background-color: rgb(154, 154, 154);
     height: 500px;
     border-radius: 15%;
+    display: flex;
 }
+
 
