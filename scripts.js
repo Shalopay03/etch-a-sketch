@@ -84,7 +84,7 @@ size.addEventListener('input', () => {
 const reset = document.querySelector('#reset');
 
 reset.addEventListener('click', () => {
-
+    const pixels = document.querySelectorAll('.pixel');
     pixels.forEach((pixel) => {        
             pixel.style.backgroundColor = 'white';     
     });
