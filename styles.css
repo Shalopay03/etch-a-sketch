@@ -74,7 +74,8 @@ header{
     height: 30px;
 }
 
-#eraser{
+#eraser,
+#rainbow{
     width: 90px;
     height: 30px;
 }
