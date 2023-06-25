@@ -6,4 +6,4 @@ You can choose colors, size, reset your panel, use eraser or rainbow mode (rando
 
 Technologies used: HTML, CSS, Javascript
 
-Link to a deployed web page: https://shalopay03.github.io/etch-a-sketch/
+Link to a deployed web page: https://shalodev.github.io/etch-a-sketch/
